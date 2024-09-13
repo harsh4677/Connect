@@ -17,14 +17,14 @@ interface MeetingModalProps{
     onClose: () => void;
     title: string;
     className?: string;
-    handelClick?: ()=> void;
+    handleClick?: ()=> void;
     buttonText?: string;
     image?: string;
     buttonIcon?: string;
     children?: ReactNode;
 }
 
-const MeetingModal = ({isOpen , onClose, title , className, handelClick,
+const MeetingModal = ({isOpen , onClose, title , className, handleClick,
     buttonText, image, buttonIcon, children
 }: MeetingModalProps ) => {
 
@@ -48,7 +48,7 @@ const MeetingModal = ({isOpen , onClose, title , className, handelClick,
             <h1 className={cn('text-3xl font-bold leading-[42px]', className)}>{title}</h1>
             {children}
             <Button className='bg-blue-1 focus-visible:ring-0 focus-visible:ring-offset-0' 
-            onClick={handelClick}>
+            onClick={handleClick}>
               {buttonIcon && (
                 <Image src={buttonIcon} alt='button icon'
                 width={13} height={13} />
