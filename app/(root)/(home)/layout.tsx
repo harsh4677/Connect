@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 import React, { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "YOOM",
+  title: "Connect",
   description: "Video calling app",
   icons: '/icons/logo.svg'
 };

@@ -9,7 +9,7 @@ import 'react-datepicker/dist/react-datepicker.css'
 const inter = Inter({ subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "YOOM",
+  title: "Connect",
   description: "Video calling app",
   icons: '/icons/logo.svg'
 };
@@ -26,7 +26,7 @@ export default function RootLayout({
       <ClerkProvider
       appearance={{
         layout:{
-          logoImageUrl: '/icons/yoom-logo.svg',
+          logoImageUrl: '/icons/Connect-logo.svg',
           socialButtonsVariant: 'iconButton'
         },
         variables:{

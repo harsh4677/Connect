@@ -34,11 +34,11 @@ const MobileNav = () => {
                             src="/icons/logo.svg"
                             width={32}
                             height={32}
-                            alt='Yoom logo'
+                            alt='Connect logo'
                             className='max-sm:size-10'
                         />
                         <p className='text-[26px] font-extrabold text-white'>
-                            Yoom
+                        Connect
                         </p>
                     </Link>
                     <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
