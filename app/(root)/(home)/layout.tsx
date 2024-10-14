@@ -1,11 +1,11 @@
+import Fotter from '@/components/Fotter';
 import Navbar from '@/components/Navbar';
-import Sidebar from '@/components/Sidebar';
 import { Metadata } from 'next';
 import React, { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "Connect",
-  description: "Video calling app",
+  title: "Anoushka",
+  description: "EN PN Calculator",
   icons: '/icons/logo.svg'
 };
 
@@ -15,8 +15,6 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
         <Navbar/>
 
         <div className='flex'>
-            <Sidebar/>
-
             <section className='flrx min-h-screen flex-1flex-col px-6 pb-6 pt-28 
             max-md:pb-14 sm:px-14'>
                 <div className='w-full'>
@@ -24,6 +22,7 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
                 </div>
             </section>
         </div>
+        <Fotter/>
     </main>
   );
 };

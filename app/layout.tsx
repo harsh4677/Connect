@@ -9,9 +9,8 @@ import 'react-datepicker/dist/react-datepicker.css'
 const inter = Inter({ subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "Connect",
-  description: "Video calling app",
-  icons: '/icons/logo.svg'
+  title: "Anoushka",
+  description: "EN & PN calculator"
 };
 
 export default function RootLayout({
@@ -26,7 +25,7 @@ export default function RootLayout({
       <ClerkProvider
       appearance={{
         layout:{
-           logoImageUrl: '/icons/logo.svg',
+           logoImageUrl: '',
           socialButtonsVariant: 'iconButton'
         },
         variables:{
@@ -46,3 +45,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+

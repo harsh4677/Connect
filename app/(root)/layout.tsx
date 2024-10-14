@@ -1,19 +1,16 @@
-import  StreamVideoProvider  from '@/providers/StreamClientProvider'
 import { Metadata } from 'next';
 import React, { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "Connect",
-  description: "Video calling app",
-  icons: '/icons/logo.svg'
+  title: "Anoushka",
+  description: "EN & PN Calculator",
+  icons: ''
 };
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <main>
-      <StreamVideoProvider>
-        {children}
-      </StreamVideoProvider>
+      {children}
     </main>
   );
 };
